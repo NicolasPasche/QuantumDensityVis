@@ -113,7 +113,7 @@ scat = ax.scatter(X.flatten(), Y.flatten(), Z.flatten(), c=colors.reshape(-1, 4)
 
 ---
 
-### Animation der Zeitentwicklung (work in progress...)
+### Animation der Zeitentwicklung
 
 ```python
 # Update-Funktion für Zeitabhängigkeit
