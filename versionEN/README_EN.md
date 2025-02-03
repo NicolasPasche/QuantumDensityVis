@@ -11,20 +11,20 @@ need two essential mathematical components:
 
 ### 1. Radial part of the wave function
 
-The radial function for the 2p orbital `n=2`, `l=1` is:
+The radial function for the 2p orbital $$n=2$$, $$l=1$$ is:
 
 $$
 R_{2p}(r) = \frac{1}{2\sqrt{6} \, a_0^{3/2}} \cdot \frac{r}{a_0} \cdot e^{-r / (2a_0)}
 $$
 
 Where:
-- $ a_0 $: Bohr radius $ (a_0 = 5.29 \times 10^{-11} \, \text{m}) $
-- $ r $: Radial distance to the core
+- $$a_0$$: Bohr radius $$(a_0 = 5.29 \times 10^{-11} \, \text{m})$$
+- $$r$$: Radial distance to the core
 
 ### 2. Spherical harmonics
 
-The spherical harmonic functions $ Y_l^m(\theta, \phi) $ describe the angular part of the wave function.
-For `l=1`, `m=0`, we have:
+The spherical harmonic functions $$Y_l^m(\theta, \phi)$$ describe the angular part of the wave function.
+For $$l=1$$, $$m=0$$, we have:
 
 $$
 Y_1^0(\theta, \phi) = \sqrt{\frac{3}{4\pi}} \cos(\theta)
