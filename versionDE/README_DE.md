@@ -9,18 +9,18 @@ Dieses Projekt demonstriert die Visualisierung des 2p-Orbitals eines Wasserstoff
 Das Wasserstoffatom wird durch die Schrödinger-Gleichung beschrieben. Für die Visualisierung der Orbitale benötigen wir zwei wesentliche mathematische Bestandteile:
 
 ### 1. **Radialer Anteil der Wellenfunktion**
-Die radiale Funktion für das  2p-Orbital `n=2`, `l=1` lautet:
+Die radiale Funktion für das  2p-Orbital $$n=2$$, $$l=1$$ lautet:
 
 $$
 R_{2p}(r) = \frac{1}{2\sqrt{6} \, a_0^{3/2}} \cdot \frac{r}{a_0} \cdot e^{-r / (2a_0)}
 $$
 
 Hierbei ist:
-- $ a_0 $: Bohrscher Radius $ (a_0 = 5.29 \times 10^{-11} \, \text{m}) $,
-- $ r $: Radialabstand vom Kern.
+- $$a_0$$: Bohrscher Radius $$(a_0 = 5.29 \times 10^{-11} \, \text{m})$$,
+- $$r$$: Radialabstand vom Kern.
 
 ### 2. **Sphärische Harmonische**
-Die sphärischen harmonischen Funktionen $ Y_l^m(\theta, \phi) $ beschreiben den Winkelanteil der Wellenfunktion. Für `l=1`, `m=0` gilt:
+Die sphärischen harmonischen Funktionen $$Y_l^m(\theta, \phi)$$ beschreiben den Winkelanteil der Wellenfunktion. Für $$l=1$$, $$m=0$$ gilt:
 
 $$
 Y_1^0(\theta, \phi) = \sqrt{\frac{3}{4\pi}} \cos(\theta)
