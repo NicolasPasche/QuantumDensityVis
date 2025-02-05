@@ -108,3 +108,7 @@ ani.save("hydrogen_atom_2p.mp4", writer="ffmpeg", fps=20)
 
 plt.show()
 ```
+
+## Final Product
+![image](https://github.com/user-attachments/assets/a6659d86-face-42a1-9fd3-04e4cecd2825)
+
